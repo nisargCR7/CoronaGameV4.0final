@@ -246,7 +246,7 @@ start3(){
           this.next.show()
         
           this.next.mousePressed(()=>{
-            minutes=10
+            minutes=9
             seconds=60
             crowd_music.stop()
             qstate=0
