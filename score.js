@@ -58,7 +58,7 @@ class Score{
       }
 
     checkScore(){
-    store_min=10-store_min
+    store_min=9-store_min
     store_sec=60-store_sec
     
     if(store_min<Minutes[0]&&store_sec<Seconds[0]){
