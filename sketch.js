@@ -344,8 +344,8 @@ function setup() {
  virusGroup2.add(virus7)
 
 
-mazerunner = createSprite(Width/1.145,Height/8,Width/38,Height/35)
-//  mazerunner = createSprite(Width/2,Height/2,Width/38,Height/35)
+//mazerunner = createSprite(Width/1.145,Height/8,Width/38,Height/35)
+mazerunner = createSprite(Width/2,Height/2,Width/38,Height/35)
  mazerunner.addImage("left",left_stand)
  mazerunner.addImage("right",right_stand)
  mazerunner.addImage("up",up_stand)
@@ -769,7 +769,7 @@ function timeIt(){
 function addition(){
   
   
-  if(gameState===13){
+  if(gameState===3){
   if(mazerunner.isTouching(antitode)){
     store_sec=seconds;
     store_min=minutes;
